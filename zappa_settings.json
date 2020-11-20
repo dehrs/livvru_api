@@ -1,0 +1,10 @@
+{
+    "tcc": {
+        "app_function": "app.app",
+        "profile_name": "default",
+        "project_name": "livvru",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-6shbss933",
+        "aws_region": "us-west-1"
+    }
+}
