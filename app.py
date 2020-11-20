@@ -4,8 +4,6 @@ import mysql.connector
 from sklearn.neighbors import NearestNeighbors
 import json
 
-def
-
 def recomendacao(id_usuario):
   host="dbtcc.cknsdqa3n4oo.sa-east-1.rds.amazonaws.com"
   port=3306
@@ -18,6 +16,11 @@ def recomendacao(id_usuario):
                               database=dbname)
 
   cur = conn.cursor()
+  cur.execute('select * from questions where ID_USUARIO = %i' %id_usuario)
+  dados = cur.fetchall()
+
+  if dados==[]:
+    return {"parametros": ""}
 
   cur.execute('select * from questions')
   dados = cur.fetchall()
