@@ -1,4 +1,4 @@
-#!c:\users\ferrari\pycharmprojects\livvru\venv\scripts\python.exe
+#!C:\Users\debor\Documents\Faculdade\8\livvru_api\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'cfn-flip==1.2.3','console_scripts','cfn-flip'
 import re
 import sys

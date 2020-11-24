@@ -8,8 +8,8 @@ def recomendacao(id_usuario):
   host="dbtcc.cknsdqa3n4oo.sa-east-1.rds.amazonaws.com"
   port=3306
   dbname="DB_TCC"
-  user="admin"
-  password="admin123456"
+  user="tccleitura"
+  password="afvD7pzxkA23"
 
   conn = mysql.connector.connect(user=user, password=password,
                               host=host,

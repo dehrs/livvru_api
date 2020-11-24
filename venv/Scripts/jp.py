@@ -1,4 +1,4 @@
-#!c:\users\ferrari\pycharmprojects\livvru\venv\scripts\python.exe
+#!C:\Users\debor\Documents\Faculdade\8\livvru_api\venv\Scripts\python.exe
 
 import sys
 import json

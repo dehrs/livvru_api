@@ -1,4 +1,4 @@
-#!c:\users\ferrari\pycharmprojects\livvru\venv\scripts\python.exe
+#!C:\Users\debor\Documents\Faculdade\8\livvru_api\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'kappa==0.6.0','console_scripts','kappa'
 import re
 import sys
